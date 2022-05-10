@@ -1,5 +1,5 @@
 
-// 1
+
 
 function getAPOD(){
     var xhttp = new XMLHttpRequest();
@@ -28,24 +28,6 @@ function getAPOD(){
 }
 
 getAPOD();
-
-
-// APIrequested();
-
-// async function APIrequested(){
-//     let api_Key = "0rVrOia1ybcu45k1cWLqb3TwgwWYuTv9MUU3joXg";
-//     let response = await fetch('https://api.nasa.gov/planetary/apod?api_key=${api_Key}');
-//     console.log(response);
-//     let data = await response.json();
-//     console.log(data);
-//     ApiData(data);
-// }
-
-
-// function ApiData(data){
-//     document.querySelector(".IOD-caption").innerHTML += data.explaination;
-//     document.querySelector(".IOD-place").innerHTML += '<img src="${data.url}">';
-// }
 
 
 
