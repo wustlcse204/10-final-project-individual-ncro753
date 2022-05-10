@@ -12,9 +12,11 @@ function getAPOD(){
             if(respond.media_type != "video") {
                 // returned a picture
                 document.getElementById("IOD-place-image").src = respond.hdurl;
+                document.getElementById("IOD-place-video").style.display = "none";
             } else {
                 // returned a video
                 document.getElementById("IOD-place-video").src = respond.url;
+                document.getElementById("IOD-place-image").style.display = "none";
             }
             //document.getElementById("IOD-place").src = respond.hdurl;
             document.getElementById("IOD-date").innerHTML = respond.date;

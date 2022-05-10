@@ -53,6 +53,10 @@ body{
     height: 100%;
 }
 
+#IOD-place-image{
+    width: 60%;
+}
+
 
 /* About */
 p.content, h2{
